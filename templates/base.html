@@ -56,18 +56,16 @@
     {% endblock %}
 
 
-    <title>{% block title %}{% endblock %} | {{ store_name }}</title>
+    <title>{% block title %}{% endblock %} | Denn Toddlers</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
         <!-- Navbar -->
-        {% include 'layout/navbar.html' %}
+        
 
         <!-- Navbar spacer -->
         <div class="nav-spacer"></div>
-
-        {% include 'components/open-order-button/open-order-button.html' %}
         
         {% if messages %}
         <!-- Messages section -->
@@ -75,13 +73,13 @@
                 {% for message in messages %}
                     {% with message.level as level %}
                         {% if level == 40 %}
-                            {% include 'components/toasts/toast-error.html' %}
+                            
                         {% elif level == 30 %}
-                            {% include 'components/toasts/toast-warning.html' %}
+                            
                         {% elif level == 25 %}
-                            {% include 'components/toasts/toast-success.html' %}
+                            
                         {% else %}
-                            {% include 'components/toasts/toast-info.html' %}
+                            
                         {% endif %}
                     {% endwith %}
                 {% endfor %}
@@ -93,7 +91,7 @@
         {% endblock %}
 
         <!-- Footer -->
-        {% include 'layout/footer.html' %}
+        
 
     <!-- Postload JS -->
     {% block postloadjs %}
