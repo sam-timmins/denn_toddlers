@@ -73,7 +73,7 @@
                     {% for message in messages %}
                         {% with message.level as level %}
                             {% if level == 40 %}
-                                
+                                {% include 'components/alerts/alert-error.html' %}
                             {% elif level == 30 %}
                                 
                             {% elif level == 25 %}
@@ -85,6 +85,13 @@
                     {% endfor %}
                 </section>
             {% endif %}
+
+            <!-- Header text -->
+
+            {% block header %}
+
+            {% endblock %}
+
 
             {% block content %}
 
