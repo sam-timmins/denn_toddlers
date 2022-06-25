@@ -116,3 +116,7 @@ body {
     background-color: var(--white);
     color: var(--red) !important;
 }
+
+.preschool-blob {
+    	height: 30rem;
+}
