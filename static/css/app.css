@@ -90,8 +90,8 @@ body {
     background-color: var(--orange);
 }
 
-.border-bottom-blue {
-    border-bottom: 2px solid var(--blue);
+.border-bottom-orange {
+    border-bottom: 2px solid var(--orange);
 }
 
 .nav-spacer,
