@@ -110,3 +110,9 @@ body {
 .navbar-toggler {
     background-color: var(--white);
 }
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: var(--white);
+    color: var(--red) !important;
+}
