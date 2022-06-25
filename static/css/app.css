@@ -113,6 +113,13 @@ body {
     border-top: 2px solid var(--orange);
 }
 
+.button {
+    border-color: var(--white-transp);
+    background-color: var(--orange);
+    color: var(--black);
+    font-size: 2rem;
+}
+
 .nav-spacer,
 .navbar {
     height: 7.5rem;
@@ -127,7 +134,7 @@ body {
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 0.25rem var(--light-green)
+    box-shadow: 0 0 0 0.25rem var(--white-transp)
 }
 
 .navbar-toggler {
@@ -135,7 +142,9 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.button:hover,
+.button:focus {
     background-color: var(--white);
     color: var(--red) !important;
     box-shadow: 0px 0px 15px 2px var(--white-transp);
@@ -174,3 +183,8 @@ body {
     background-repeat: no-repeat;
 }
 
+.email-link:hover,
+.email-link:focus {
+    color: var(--green);
+    transition: 0.8s;
+}
