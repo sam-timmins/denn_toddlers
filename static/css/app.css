@@ -118,5 +118,13 @@ body {
 }
 
 .preschool-blob {
-    	height: 30rem;
+    height: 30rem;
+}
+
+.home-top-image {
+    background-image: url("/static/images/hands.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
