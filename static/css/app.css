@@ -9,8 +9,10 @@ font-family: 'Nunito', sans-serif;
     --blue: #111D5E;
     --green: #C0E218;
     --orange: #F77810;
+    --black-transp: rgba(0, 0, 0, 0.7);
     --red: #B30033;
     --white: #FFFFFF;
+    --white-transp: rgba(255, 255, 255, 0.8);
 }
 
 html {
@@ -74,6 +76,14 @@ body {
     background-color: var(--white);
 }
 
+.background-white-transp {
+    background-color: var(--white-transp);
+}
+
+.background-black-transp {
+    background-color: var(--black-transp);
+}
+
 .background-blue {
     background-color: var(--blue);
 }
@@ -115,4 +125,34 @@ body {
 .nav-link:focus {
     background-color: var(--white);
     color: var(--red) !important;
+}
+
+.preschool-blob {
+    height: 30rem;
+}
+
+.welcome-section {
+    height: 50rem;
+}
+
+.logo-section {
+    height: 40rem;
+}
+
+.home-top-image {
+    background-image: url("/static/images/hands.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--orange);
+}
+
+.hero-image {
+    background-image: url("/static/images/chalks.jpg");
+    min-height: 50rem;
+    background-color: var(--orange);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
