@@ -87,17 +87,11 @@
             {% endif %}
 
             <!-- Header text -->
-            <div class="container">
-                <div class="row my-5 mx-auto">
-                    <div class="col-12">
-                        <h2 class="text-header text-page-header text-white text-lg text-center m-0">
-                            {% block header %}
 
-                            {% endblock %}
-                        </h2>
-                    </div>
-                </div>
-            </div>
+            {% block header %}
+
+            {% endblock %}
+
 
             {% block content %}
 
