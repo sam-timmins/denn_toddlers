@@ -56,7 +56,7 @@
         {% endblock %}
 
 
-        <title>{% block title %}{% endblock %} | Denn Toddlers</title>
+        <title>{% block title %}{% endblock %} | {{ playgroup_name }}</title>
     </head>
 
     <body class="d-flex flex-column min-vh-100 background-blue">
@@ -91,7 +91,7 @@
             {% endblock %}
 
             <!-- Footer -->
-            
+            {% include 'layout/footer.html' %}
 
         <!-- Postload JS -->
         {% block postloadjs %}

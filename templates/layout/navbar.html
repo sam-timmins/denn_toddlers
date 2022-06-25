@@ -3,7 +3,7 @@
         <!-- Playgroup name and hamburger -->
         <a class="navbar-brand text-md text-header text-white ms-3 letter-spacing-2" href="{% url 'home' %}"
             aria-labelledby="playgroup-name">
-            Denn Toddlers
+            {{ playgroup_name }}
         </a>
         <span id="playgroup-name" class="sr-only">
             A link with green text and white background that navigates back to the homepage
@@ -21,7 +21,7 @@
             <ul class="navbar-nav ms-auto p-5 p-lg-0 background-red">
 
                 <li class="nav-item me-lg-3 me-xl-5 my-3 my-lg-0">
-                    <a class="nav-link text-sm text-blue text-center letter-spacing-2 p-3 background-green rounded-3" href="#"
+                    <a class="nav-link text-sm text-black text-center letter-spacing-2 p-3 background-green rounded-3" href="#"
                         aria-labelledby="navbar-gallery">
                         Gallery
                     </a>

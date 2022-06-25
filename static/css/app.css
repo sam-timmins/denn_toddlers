@@ -10,6 +10,7 @@ font-family: 'Nunito', sans-serif;
     --green: #C0E218;
     --orange: #F77810;
     --black-transp: rgba(0, 0, 0, 0.7);
+    --black: #000;
     --red: #B30033;
     --white: #FFFFFF;
     --white-transp: rgba(255, 255, 255, 0.8);
@@ -64,6 +65,10 @@ body {
     color: var(--orange);
 }
 
+.text-black {
+    color: var(--black);
+}
+
 .text-header {
     font-family: 'Butterfly Kids', cursive;
 }
@@ -104,9 +109,17 @@ body {
     border-bottom: 2px solid var(--orange);
 }
 
+.border-top-orange {
+    border-top: 2px solid var(--orange);
+}
+
 .nav-spacer,
 .navbar {
     height: 7.5rem;
+}
+
+.footer {
+    height: 9rem;
 }
 
 .navbar-light .navbar-toggler {
@@ -125,14 +138,17 @@ body {
 .nav-link:focus {
     background-color: var(--white);
     color: var(--red) !important;
+    transition: 0.8s;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--blue) !important;
+    transition: 0.8s;
 }
 
 .preschool-blob {
     height: 30rem;
-}
-
-.welcome-section {
-    height: 50rem;
 }
 
 .logo-section {
@@ -156,3 +172,4 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
