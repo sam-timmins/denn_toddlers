@@ -1,0 +1,6 @@
+@media (min-width: 992px) {
+    .navbar-collapse {
+        background-color: transparent;
+        border-bottom: none;
+    }
+}
