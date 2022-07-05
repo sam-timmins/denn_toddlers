@@ -5,19 +5,88 @@
 {% block title %}Gallery{% endblock %}
 
 {% block header %}
-    <div class="container">
-        <div class="row my-5 mx-auto">
-            <div class="col-12">
-                <h2 class="text-header text-page-header text-white text-lg text-center m-0">
-                        Gallery
-                </h2>
-            </div>
+<div class="container">
+    <div class="row my-5 mx-auto">
+        <div class="col-12">
+            <h2 class="text-header text-page-header text-white text-lg text-center m-0">
+                Gallery
+            </h2>
         </div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
+<div class="container">
+
+    <div class="row mb-5">
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/apple.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/apple.jpg' %}">
+                <figcaption class="text-white mb-5">An apple sitting on some books.</figcaption>
+            </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/hands.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/hands.jpg' %}">
+                <figcaption class="text-white mb-5">Two painted hands.</figcaption>
+            </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/chalks.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/chalks.jpg' %}">
+                <figcaption class="text-white mb-5">Some chalks.</figcaption>
+            </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/pencils.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/pencils.jpg' %}">
+                <figcaption class="text-white mb-5">Pencils in a circle.</figcaption>
+            </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/pencils.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/pencils.jpg' %}">
+                <figcaption class="text-white mb-5">Pencils in a circle.</figcaption>
+            </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/chalks.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/chalks.jpg' %}">
+                <figcaption class="text-white mb-5">Some chalks.</figcaption>
+            </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/hands.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/hands.jpg' %}">
+                <figcaption class="text-white mb-5">Two painted hands.</figcaption>
+            </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/pencils.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/pencils.jpg' %}">
+                <figcaption class="text-white mb-5">Pencils in a circle.</figcaption>
+            </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 my-2 text-center">
+            <a href="{% static 'images/apple.jpg' %}" data-lightbox="photos" class="text-decoration-none">
+                <img class="img-fluid gallery-image rounded-3" src="{% static 'images/apple.jpg' %}">
+                <figcaption class="text-white mb-5">An apple sitting on some books.</figcaption>
+            </a>
+        </div>
 
 
+    </div>
+</div>
+</div>
 
 {% endblock %}
