@@ -23,6 +23,7 @@
         {% block corecss %}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
             <link rel="stylesheet" href="{% static 'css/app.css' %}">
             <link rel="stylesheet" href="{% static 'css/media.css' %}">
         {% endblock %}
@@ -39,7 +40,6 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
             <script src="https://kit.fontawesome.com/522597c1d6.js" crossorigin="anonymous"></script>
-            <script src="https://js.stripe.com/v3/"></script>
         {% endblock %}
 
         <!-- Extra JS -->
@@ -104,7 +104,8 @@
         {% block postloadjs %}
 
             <script src="{% static 'js/app.js' %}"></script>
-            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
         {% endblock %}
         
     </body>
